@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block body %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js"></script>
+
+<div id="app">
+    <p>[[ message ]]</p>
+</div>
+
+<script src="{{ url_for('static', filename='js/hello.js') }}"></script>
+
+{% endblock body %}
+
