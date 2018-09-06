@@ -10,3 +10,7 @@ def hello():
 @root.route('/grid', methods=['GET', 'POST'])
 def grid():
     return render_template('grid.html')
+
+@root.route('/tree', methods=['GET', 'POST'])
+def tree():
+    return render_template('tree.html')
